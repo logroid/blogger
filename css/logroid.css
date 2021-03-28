@@ -459,7 +459,7 @@ h6 .android-robot .body {
   counter-reset: heading-6
 }
 
-#main a {
+#main a:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete) {
   margin: 0 3px
 }
 
