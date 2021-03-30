@@ -18,7 +18,7 @@
         '(adsbygoogle = window.adsbygoogle || []).push({});'
       )
       $wrapper.append($ad).append($script)
-      let $target = $('.post-body.entry-content>*:not(.adgoogle-wrapper)[id]')
+      let $target = $('.post-body.entry-content>div[id]:not(.adgoogle-wrapper)')
       if ($target.length == 0) {
         $target = $('.post-body.entry-content>*:not(.adgoogle-wrapper):not(.adgoogle-wrapper +):not(.ad-inserted):not(script):not(link)')
       }
