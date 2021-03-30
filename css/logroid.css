@@ -740,7 +740,8 @@ a.overflow {
 }
 
 .main-inner .column-center-inner {
-  background-color: #fff
+  background-color: #fff;
+  float:left;
 }
 
 .post {
