@@ -291,7 +291,7 @@ code {
   max-width: 100%
 }
 
-.post-body a {
+.post-body a[href] {
   margin: 0 3px
 }
 
