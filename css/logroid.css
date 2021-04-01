@@ -459,7 +459,7 @@ h6 .android-robot .body {
   counter-reset: heading-6
 }
 
-#main a:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):not(.dropdown-item) {
+#main a[href]:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):not(.dropdown-item) {
   margin: 0 3px;
 }
 
@@ -748,8 +748,8 @@ a.overflow {
   margin: 0 1em 1em
 }
 
-#main a:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):link,
-#main a:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):visited {
+#main a[href]:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):link,
+#main a[href]:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):visited {
   color: #069;
   word-wrap: break-word
 }
@@ -763,7 +763,7 @@ footer a:visited {
   word-wrap: break-word
 }
 
-#main a:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):hover,
+#main a[href]:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):hover,
 aside a:hover,
 footer a:hover {
   color: #ff6347;
@@ -771,7 +771,7 @@ footer a:hover {
   word-wrap: break-word
 }
 
-#main a:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):active {
+#main a[href]:not(.is-white):not(.is-black):not(.is-light):not(.is-dark):not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger):not(.is-delete):active {
   color: #069;
   text-decoration: underline;
   word-wrap: break-word
