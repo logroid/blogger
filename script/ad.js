@@ -18,9 +18,12 @@
         '(adsbygoogle = window.adsbygoogle || []).push({});'
       )
       $wrapper.append($ad).append($script)
-      let $target = $('.post-body.entry-content>div[id]:not(.adgoogle-wrapper)')
+      let $target = $('.post-body.entry-content>.separator:not(.adgoogle-wrapper)')
       if ($target.length == 0) {
-        $target = $('.post-body.entry-content>*:not(.adgoogle-wrapper):not(.adgoogle-wrapper +):not(.ad-inserted):not(script):not(link)')
+        $target = $('.post-body.entry-content>div[id]:not(.adgoogle-wrapper)')
+        if ($target.length == 0) {
+          $target = $('.post-body.entry-content>*:not(.adgoogle-wrapper):not(.adgoogle-wrapper +):not(.ad-inserted):not(script):not(link)')
+        }
       }
       const index = Math.floor(Math.random() * $target.length)
       $target.eq(index).before($wrapper).addClass('ad-inserted')
