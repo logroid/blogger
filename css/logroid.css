@@ -645,6 +645,7 @@ pre.terminal {
   overflow-x: auto;
   padding: 2px;
   font-weight: bold;
+  max-width: 100%;
 }
 
 dl {
