@@ -2146,6 +2146,6 @@ border: 1px solid gray;
 border-radius: 10px;
 }
 
-body>textarea {
-  height:0px;
+body>textarea[readonly] {
+  height:0px !important
 }
