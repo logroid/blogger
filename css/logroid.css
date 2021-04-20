@@ -2135,3 +2135,10 @@ th.th-slash {
 .main-inner>.columns{
   display: block !important;
 }
+
+.post-body .google-forms {
+  margin-top: 10px;
+margin-bottom: 10px;
+border: 1px solid gray;
+border-radius: 10px;
+}
