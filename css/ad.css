@@ -26,3 +26,7 @@ ins[data-ad-slot="5814180973"]{
   min-height: 100px;
   width: 100%;
 }
+.post-body > * .google-auto-placed {
+  display: none;
+}
+
