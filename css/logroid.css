@@ -2149,4 +2149,5 @@ border-radius: 10px;
 body>textarea[readonly] {
   height:0px !important;
   position: fixed !important;
+  width: 10px;
 }
