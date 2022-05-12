@@ -26,6 +26,7 @@
         }
       }
       const index = Math.floor(Math.random() * $target.length)
+      console.info("ad", $target.eq(index), $target.eq(index).prev(), $target.eq(index).next())
       $target.eq(index).before($wrapper).addClass('ad-inserted')
     })
   }
