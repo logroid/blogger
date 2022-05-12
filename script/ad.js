@@ -26,12 +26,11 @@
         }
       }
       const index = Math.floor(Math.random() * $target.length)
-      console.info("ad", $target.eq(index), $target.eq(index).prev(), $target.eq(index).next())
       let $ins = $target.eq(index)
       if ($ins.prev().hasClass('adgoogle-wrapper') || $ins.next().hasClass('adgoogle-wrapper')){
         $('.post-body.entry-content').append($wrapper)
       }else{
-        $target.eq(index).before($wrapper).addClass('ad-inserted')
+        $ins.before($wrapper).addClass('ad-inserted')
       }
     })
   }
