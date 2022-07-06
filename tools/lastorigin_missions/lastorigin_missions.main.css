@@ -1,1 +1,85 @@
-#lastorigin_missions{margin-top:20px}#lastorigin_missions .build-time{font-size:10px;color:grey;float:right}#lastorigin_missions .build-time:before{content:"ビルド日時: ";font-size:10px;color:grey}#lastorigin_missions ul.float{overflow:hidden;list-style:none;padding:0;margin:0}#lastorigin_missions ul.float li{float:left;margin-right:30px}#lastorigin_missions .stage-info{font-size:1.3em}#lastorigin_missions section{margin:5px 0 15px}#lastorigin_missions .recommend{font-weight:700;color:red}#lastorigin_missions .recommend-os{height:128px;width:128px;display:inline-block;content:"";background-image:url(https://1.bp.blogspot.com/-ISmSieOyBwI/X_fcDpd4gSI/AAAAAAAIYd0/8iZ1RDXJm6YGRfGN2R4OppwyteafNzBNACLcBGAsYHQ/s0/type.png);background-repeat:no-repeat;background-position-x:128px}#lastorigin_missions .recommend-os.light{background-position-x:0}#lastorigin_missions .recommend-os.heavy{background-position-x:-128px}#lastorigin_missions .recommend-os.flying{background-position-x:-256px}#lastorigin_missions .element:before{width:23px;height:20px;display:inline-block;content:"";background-image:url(https://1.bp.blogspot.com/-aC-FXxroReE/YCycWerZ-sI/AAAAAAAIY9c/ECGwTwYNzncfGR1oT6cj_0l4VqeOZpKdACLcBGAsYHQ/s0/resist.png);background-repeat:no-repeat;background-position-y:0}#lastorigin_missions .element.fire:before{background-position-x:0}#lastorigin_missions .element.ice:before{background-position-x:-23px}#lastorigin_missions .element.electric:before{background-position-x:-46px}#lastorigin_missions .recommend-os-name{font-size:1.2rem}#lastorigin_missions .enemy tr.light{background-color:rgba(255,99,132,.2)}#lastorigin_missions .enemy tr.heavy{background-color:rgba(54,162,235,.2)}#lastorigin_missions .enemy tr.flying{background-color:rgba(255,206,86,.2)}#lastorigin_missions .enemy .th-wrap .icon.sort-icon{display:none}
+@charset "UTF-8";
+#lastorigin_missions {
+  margin-top: 20px;
+}
+#lastorigin_missions .build-time {
+  font-size: 10px;
+  color: gray;
+  float: right;
+}
+#lastorigin_missions .build-time::before {
+  content: "ビルド日時: ";
+  font-size: 10px;
+  color: gray;
+}
+#lastorigin_missions ul.float {
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#lastorigin_missions ul.float li {
+  float: left;
+  margin-right: 30px;
+}
+#lastorigin_missions .stage-info {
+  font-size: 1.3em;
+}
+#lastorigin_missions section {
+  margin: 5px 0 15px;
+}
+#lastorigin_missions .recommend {
+  font-weight: bold;
+  color: red;
+}
+#lastorigin_missions .recommend-os {
+  height: 128px;
+  width: 128px;
+  display: inline-block;
+  content: "";
+  background-image: url("https://1.bp.blogspot.com/-ISmSieOyBwI/X_fcDpd4gSI/AAAAAAAIYd0/8iZ1RDXJm6YGRfGN2R4OppwyteafNzBNACLcBGAsYHQ/s0/type.png");
+  background-repeat: no-repeat;
+  background-position-x: 128px;
+}
+#lastorigin_missions .recommend-os.light {
+  background-position-x: 0;
+}
+#lastorigin_missions .recommend-os.heavy {
+  background-position-x: -128px;
+}
+#lastorigin_missions .recommend-os.flying {
+  background-position-x: -256px;
+}
+#lastorigin_missions .element::before {
+  width: 23px;
+  height: 20px;
+  display: inline-block;
+  content: "";
+  background-image: url("https://1.bp.blogspot.com/-aC-FXxroReE/YCycWerZ-sI/AAAAAAAIY9c/ECGwTwYNzncfGR1oT6cj_0l4VqeOZpKdACLcBGAsYHQ/s0/resist.png");
+  background-repeat: no-repeat;
+  background-position-y: 0;
+}
+#lastorigin_missions .element.fire::before {
+  background-position-x: 0;
+}
+#lastorigin_missions .element.ice::before {
+  background-position-x: -23px;
+}
+#lastorigin_missions .element.electric::before {
+  background-position-x: -46px;
+}
+#lastorigin_missions .recommend-os-name {
+  font-size: 1.2rem;
+}
+#lastorigin_missions .enemy tr.light {
+  background-color: rgba(255, 99, 132, 0.2);
+}
+#lastorigin_missions .enemy tr.heavy {
+  background-color: rgba(54, 162, 235, 0.2);
+}
+#lastorigin_missions .enemy tr.flying {
+  background-color: rgba(255, 206, 86, 0.2);
+}
+#lastorigin_missions .enemy .th-wrap .icon.sort-icon {
+  display: none;
+}
