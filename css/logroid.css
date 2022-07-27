@@ -744,6 +744,7 @@ a.overflow {
 
 .main-inner .column-center-inner {
   background-color: #fff;
+  float: left;
 }
 
 .post {
@@ -2149,8 +2150,4 @@ body>textarea[readonly] {
   height:0px !important;
   position: fixed !important;
   width: 10px;
-}
-
-.column-center-inner {
-  float: left;
 }
