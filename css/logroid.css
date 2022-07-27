@@ -2150,3 +2150,7 @@ body>textarea[readonly] {
   position: fixed !important;
   width: 10px;
 }
+
+.column-center-inner {
+  float: left;
+}
