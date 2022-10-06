@@ -1,5 +1,5 @@
 window.lastOriginEvent = {
-  event_name: "蓮花と陰に咲く薔薇",
-  event_start: 1662476400000,
-  event_end: 1664928000000
+  event_name: "プロジェクトオルカ スターナイトステージ",
+  event_start: 1664982000000,
+  event_end: 1668556800000
 }
