@@ -1,5 +1,5 @@
 window.lastOriginEvent = {
-  event_name: "儚き記憶は友と共に",
-  event_start: 1678201200000,
-  event_end: 1680652800000
+  event_name: "んにゃ～お! ～遅れてきたエイプリルフール～",
+  event_start: 1680620400000,
+  event_end: 1683072000000
 }
