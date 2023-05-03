@@ -1,5 +1,5 @@
 window.lastOriginEvent = {
-  event_name: "んにゃ～お! ～遅れてきたエイプリルフール～",
-  event_start: 1680620400000,
-  event_end: 1683072000000
+  event_name: "楽園への招待状",
+  event_start: 1683039600000,
+  event_end: 1684454400000
 }
